@@ -1,0 +1,10 @@
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    box-shadow: 0 5px 15px -5px #00000070;
+    height: 40vh;
+    width: 50vw;
+    left: 25vw;
+    top: 30vh;
+}

@@ -1,0 +1,28 @@
+.Footer {
+    height: 10vh;
+    width: 100%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.BrandContainer {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.Brand {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.SocialMediaLinksContainer {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}

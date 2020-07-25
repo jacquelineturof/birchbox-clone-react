@@ -1,0 +1,52 @@
+.Container {
+    top: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.Banner {
+    height: 40vh;
+    width: 100%;
+    background-color: #B2F0FB;
+    display: flex;
+}
+
+.HeaderContainer {
+    width: 40%;
+}
+
+.ImageContainer {
+    width: 60%;
+}
+
+.BannerImage {
+    height: 100%;
+    width: 100%;
+}
+
+.BannerHeader {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.Heading {
+    font-weight: 600;
+    font-size: 2rem;
+    width: 70%;
+    text-align: center;
+}
+
+.BannerLink {
+    text-decoration: none;
+    padding: .5rem 1rem;
+    border: 2px solid black;
+    color: black;
+    border-radius: 1rem;
+    font-weight: 600;
+}

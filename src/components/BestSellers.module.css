@@ -1,0 +1,14 @@
+.Container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ItemsContainer {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}

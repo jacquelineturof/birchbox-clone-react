@@ -1,0 +1,36 @@
+.Container {
+    height: 50vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Row {
+    justify-content: space-around;
+    align-items: center;
+    height: 95%;
+    width: 100%;
+}
+
+.Row,
+.Idea,
+.Container {
+    display: flex;
+}
+
+.Idea {
+    height: 70%;
+    width: 20%;
+    flex-direction: column;
+}
+
+.Image {
+    height: 50%;
+    width: 100%;
+}
+
+.Title {
+    width: 80%;
+    margin: 0;
+}

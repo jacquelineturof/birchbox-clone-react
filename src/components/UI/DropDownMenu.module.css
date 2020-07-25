@@ -1,0 +1,55 @@
+.DropDownMenu {
+    width: 20%;
+    position: absolute;
+    left: 0%;
+}
+
+.Control {
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    transition: color .4s;
+    cursor: pointer;
+}
+
+.Label {
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+.Icon {
+    margin-left: 1rem;
+    font-size: .7rem;
+}
+
+.Open {
+    color: #5BC0BE;
+}
+
+.Control:hover {
+    color: #5BC0BE;
+}
+
+.Menu {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 5px 15px -5px #00000070;
+    position: absolute;
+    z-index: 1;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.NavLink {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+.MenuIcon {
+    margin-right: 1rem;
+}
